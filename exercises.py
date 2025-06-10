@@ -45,10 +45,10 @@ print('Exercise 1:', manage_students())
 def combine_foods():
     # your code here
     foods = ("pizza", "hamburger", "pasta")
-    meal = ""
+    meal = " "
     for food in foods:
-        meal += food
-        return meal
+        meal += food + " "
+    return meal
 
 # Call the function and print the result
 print('Exercise 2:', combine_foods())
